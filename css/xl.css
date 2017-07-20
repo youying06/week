@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #525A5A;
+}
+.box>h2{
+    color: #fff;
+    padding: 10px;
+}
+.box>.money{
+    padding: 16px;
+}
+.box>.money>div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box>.money>div{
+    margin-bottom: 5px;
+}
+.box>.money>div>p:nth-child(1){
+    color: #fff;
+    font-size: 14px;
+    float: left;
+}
+.box>.money>div>p:nth-child(2){
+    color: #fff;
+    font-size: 14px;
+    float: right;
+}
+.box>.money>p{
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    position: relative;
+}
+.box>.money>p>input{
+    border: none;
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+}
+.box>.money>p>span{
+    display: inline-block;
+    position: absolute;
+    top: 27%;
+    right: 20%;
+}
+.box>.money>a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+.box>.money>.menu{
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    width: 268px;
+    display: none;
+}
+.box>.money>.menu ul{
+    list-style: none;
+}
+.box>.money>.menu ul>li{
+    text-indent: 5px;
+    width: 100%;
+    display: inline-block;
+}
+.box>.money>.menu ul>li>a{
+    display: inline-block;
+    padding: 5px 0;
+    color: #525252;
+    text-decoration: none;
+}
+.box>.money>.menu ul>li:hover{
+    background-color: #C6D6E7;
+}
+.box>.money>.menu1{
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    width: 268px;
+    display: none;
+}
+.box>.money>.menu1 ul{
+    list-style: none;
+}
+.box>.money>.menu1 ul>li{
+    text-indent: 5px;
+    width: 100%;
+    display: inline-block;
+}
+.box>.money>.menu1 ul>li>a{
+    display: inline-block;
+    padding: 5px 0;
+    color: #525252;
+    text-decoration: none;
+}
+.box>.money>.menu1 ul>li:hover{
+    background-color: #C6D6E7;
+}
+.box>.money>p>a{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #CECECE;
+}
+.box>.money>p>a i{
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background: url("../img/down.jpg") no-repeat center;
+    background-size: 100% 100%;
+    top: 40%;
+    right: 36%;
+}
+.box>.box1{
+    padding: 4px 16px 16px 16px;
+}
+.box>.box1>p:nth-child(1){
+    background-color: #0094EF;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.box>.box1>p:nth-child(2){
+    font-size: 12px;
+    color: #CECECE;
+    text-align: center;
+    margin-top: 10px;
+}
+.box>.box1>p:nth-child(1)>a{
+    text-decoration: none;
+    color: #fff;
+}
